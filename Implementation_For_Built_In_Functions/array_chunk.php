@@ -39,7 +39,6 @@
   echo "<br>";
   print_r (array_chunk($arr1, 3));
   echo "</pre>";
-  // echo is_int(0);
   ?>
 </body>
 
