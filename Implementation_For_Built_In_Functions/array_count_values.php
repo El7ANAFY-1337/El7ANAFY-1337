@@ -14,7 +14,7 @@
     $new_arr = [];
     $repeat = 0;
     foreach ($arr as $number) :
-      if (isset ($new_arr[$number]) == false) :
+      if ((@$new_arr[$number]) == false) :
         foreach ($arr as $number2) :
           $repeat += ($number == $number2);
         endforeach;
